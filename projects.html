@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Projects Showcase</title>
+        <link rel="icon" type="image/x-icon" href="ChatGPT Image Jun 7, 2025, 08_15_31 PM.png">
+    </head>
+
+
+<link rel="stylesheet" href ="personal website.css">
+
+<div class="about-wrapper">
+<div class="navbar" id="navbar">
+<body>
+    <h1 class= "name ">Yadav Singh</h1>
+
+  <botton class = "home" onclick="goto()"><img src="icons8-home-24.png" ></botton>
+  <button class="vinyl-btn" onclick="play()"><img src = "vinyl-record.png"></button>
+
+
+
+  <audio id="audio">
+    <source
+    src="Never Play - Jeremy Blake.mp3"
+    type="audio/mpeg">
+    <source
+    src="Never Play - Jeremy Blake.mp3" 
+    type="audio/mpeg">
+    Your browser does not support the audio element
+
+    
+    
+  </audio>
+
+
+  <script>
+    function goto() {
+      window.location.href = "index.html";
+    }
+  
+    
+    function play(){
+      var x = document.getElementById("audio");
+     
+      if (x.paused){
+        x.play();}
+      else {
+        x.pause();
+      }
+      }
+    
+
+    
+  </script>
+
+</h4>
+<a class="links" href="personal blog.html"> education blog </a>
+<a class="links" href="projects.html"> projects </a>
+<a class="links" href="about.html"> about </a>
+
+
+
+
+</div>
+<body class="projects">
+
+  <div class="project-section">
+    <div class="project-card">
+      <a class="project1" href="https://github.com/yadav412/game-of-life">
+        <img class="p1" src="Gospers_glider_gun.gif" alt="Game of Life">
+      </a>
+      <div class="panel">
+        <h2>Game of Life</h2>
+        <p>A Python-based simulation of Conway’s Game of Life created using the turtle module.</p>
+        <p>Created in 2023 - CMPT 115 final project</p>
+        <p><img src= "python.png" width="30px"height="30px"> </p>
+      </div>
+    </div>
+
+
+    
+    <div class="project-card">
+      <a class="project2">
+        <img class="p2" src="FreeVector-Under-Construction-Graphics.jpg" alt="Under Construction">
+      </a>
+      <div class="panel">
+        <h2>Project Yomiru</h2>
+        <p>This project is still under development. Stay tuned for updates!</p>
+        <p>Created in 2025 </p>
+        <p><img src= "js.png" width="30px"height="30px"> <img src= "html-5.png" width="30px"height="30px"> <img src= "css-3.png" width="30px"height="30px">  </p>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <a class="project3">
+        <img class="p3" src="FreeVector-Under-Construction-Graphics.jpg" alt="Under Construction">
+      </a>
+      <div class="panel">
+        <h2>Project Brickable</h2>
+        <p>This project is still under development. Stay tuned for updates!</p>
+        <p>Created in 2025</p>
+        <p><img src= "js.png" width="30px"height="30px"> <img src= "html-5.png" width="30px"height="30px"> <img src= "css-3.png" width="30px"height="30px"> </p>
+        
+      </div>
+    </div>
+
+      <div class="project-card">
+      <a class="project3">
+        <img class="p4" src="FreeVector-Under-Construction-Graphics.jpg" alt="Under Construction">
+      </a>
+      <div class="panel">
+        <h2>CSSS Game Jam 2025</h2>
+        <p>This project is still under development. Stay tuned for updates!</p>
+        <p>Created in 2025</p>
+        <p><img src= "unity.png" width="30px"height="30px">  </p>
+        
+      </div>
+    </div>
+
+
+
+
+    <footer>
+      <div class= "bottom">
+    <a class="linksbottom" href="personal blog.html"> education blog </a>
+    <a class="linksbottom" href="projects.html"> projects </a>
+    <a class="linksbottom" href="about.html"> about </a>
+      </div>
+    <p>
+    <img class="favicon" src="ChatGPT Image Jun 7, 2025, 08_15_31 PM.png">
+    </p>
+    </footer>
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    let prevScrollPos = window.pageYOffset;
+
+    window.onscroll = function () {
+      const currentScrollPos = window.pageYOffset;
+      const navbar = document.getElementById("navbar");
+
+      if (prevScrollPos > currentScrollPos) {
+        navbar.style.top = "0";
+      } else {
+        navbar.style.top = "-80px";
+      }
+
+      prevScrollPos = currentScrollPos;
+    };
+
+  </script>
+
+
+</body>
+
+// to be fixed
+<footer>
+  <div class= "bottom">
+<a class="linksbottom" href="personal blog.html"> education blog </a>
+<a class="linksbottom" href="projects.html"> projects </a>
+<a class="linksbottom" href="about.html"> about </a>
+  </div>
+<p>
+<img class="favicon" src="ChatGPT Image Jun 7, 2025, 08_15_31 PM.png">
+</p>
+</footer>
+
+</html>
+
