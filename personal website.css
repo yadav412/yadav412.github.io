@@ -404,17 +404,7 @@ h2
   width: 300px;
   color: white;
   box-shadow: 0 8px 16px rgba(0,0,0,0.3);
-  
-}
-
-.kenobi{
-  color: darkseagreen;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-
-.dets{
-  color: rgb(222, 213, 196);
+  backdrop-filter: blur(10px);
 }
 
 .tex{
