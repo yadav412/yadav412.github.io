@@ -365,10 +365,10 @@ h2
 }
 
 .toolbox{
-  background-color: rgba(128, 128, 128, 0.45);
+  background-color: rgba(255, 255, 255, 0.08);
   padding-left: 20px;
   padding-right: 20px;
-  
+   box-shadow: 0 8px 16px rgba(0,0,0,0.3);
   
 
   border-radius: 30px;
@@ -377,10 +377,11 @@ h2
 }
 
 .education{
-  background-color: rgba(128, 128, 128, 0.45);
+  background-color: rgba(255, 255, 255, 0.08);
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 10px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
   
 
   border-radius: 30px;
@@ -404,5 +405,5 @@ h2
   width: 300px;
   color: white;
   box-shadow: 0 8px 16px rgba(0,0,0,0.3);
-  backdrop-filter: blur(10px);
+
 }
