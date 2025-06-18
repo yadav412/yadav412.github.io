@@ -5,7 +5,7 @@
   top: 0;
   left: 0;
   z-index: 1000;
-  transition: 0.3s;
+  transition: 0.5s;
 
 
   display: flex;
@@ -15,8 +15,6 @@
   background-color: rgba(105, 105, 105, 0.694);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0);
 
-
-  
 }
 
 .favicon{
@@ -27,8 +25,10 @@
   font-family: 'Courier New', Courier, monospace;
   font-style: italic;
   font-size: large;
-  color: aliceblue;
+  color: darkseagreen;  
+  font-weight: bold;
   padding-left: 20px;
+  outline: rgba(0, 0, 0, 0.1);
 }
 
 
@@ -71,7 +71,7 @@ footer{
   align-items: flex-start;
   justify-content: center;
   gap: 2rem;
-  flex-wrap: wrap; /* makes it responsive */
+  flex-wrap: wrap; 
   padding: 2rem;
 }
 
@@ -187,7 +187,7 @@ body{
   justify-content: flex-start;
   gap: 40px; 
  
-  padding-left: 10px;  /* reduced left padding */
+  padding-left: 10px;  
   padding-right: 40px;
   padding-top: 40px;
   padding-bottom: 40px
@@ -279,7 +279,7 @@ h3{
 }
 
 .personal{
-    background-image:url("-=maple.jpg");
+    background-image:url("2117703-3840x2160-desktop-4k-dark-background-image.jpg");
     background-position: center;
     background-size: cover;
     background-color:  rgba(185, 178, 178, 0.582);
@@ -365,10 +365,10 @@ h2
 }
 
 .toolbox{
-  background-color: rgba(128, 128, 128, 0.45);
+  background-color: rgba(255, 255, 255, 0.08);
   padding-left: 20px;
   padding-right: 20px;
-  
+   box-shadow: 0 8px 16px rgba(0,0,0,0.3);
   
 
   border-radius: 30px;
@@ -377,10 +377,11 @@ h2
 }
 
 .education{
-  background-color: rgba(128, 128, 128, 0.45);
+  background-color: rgba(255, 255, 255, 0.08);
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 10px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
   
 
   border-radius: 30px;
@@ -403,5 +404,15 @@ h2
   width: 300px;
   color: white;
   box-shadow: 0 8px 16px rgba(0,0,0,0.3);
-  backdrop-filter: blur(10px);
+  
+}
+
+.kenobi{
+  color: darkseagreen;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.dets{
+  color: rgb(222, 213, 196);
 }
