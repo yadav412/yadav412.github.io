@@ -15,8 +15,6 @@
   background-color: rgba(105, 105, 105, 0.694);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0);
 
-
-  
 }
 
 .favicon{
@@ -27,7 +25,7 @@
   font-family: 'Courier New', Courier, monospace;
   font-style: italic;
   font-size: large;
-  color: darkseagreen;
+  color: darkseagreen;  
   font-weight: bold;
   padding-left: 20px;
   outline: rgba(0, 0, 0, 0.1);
