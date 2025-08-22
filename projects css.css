@@ -143,3 +143,12 @@ footer{
   color: aliceblue;
   padding-left: 20px;
 }
+
+.desc{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: small;
+  color: black;
+  padding-left: 20px;
+  text-align: left;
+  
+}
