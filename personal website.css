@@ -1,0 +1,425 @@
+.navbar{
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  transition: 0.5s;
+
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center ;
+  padding: 1rem , 2rem ;
+  background-color: rgba(105, 105, 105, 0.694);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0);
+
+}
+
+.favicon{
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+}
+.name{
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  font-size: large;
+  color: darkseagreen;  
+  font-weight: bold;
+  padding-left: 20px;
+  outline: rgba(0, 0, 0, 0.1);
+}
+
+
+.about{
+  background-color: rgba(128, 128, 128, 0.235);
+   padding: 10px 2rem 60px;
+   text-align: center;
+   max-width: 500px;
+   border-radius: 30px;
+    margin-top: 30px;
+    margin-left: 10px;
+    
+
+}
+
+.socials{
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-right: 20px;
+}
+
+.socials:hover{
+    transition:scale(1.1);
+}
+
+
+.links{
+  padding-right: 20px;
+}
+
+footer{
+  align-items: center;
+  justify-content: space-between;
+  padding-top:  50px;
+  text-align: center;
+  
+}
+header{
+  align-items: center;
+  justify-content: space-between;
+  padding-top:  10px;
+  text-align: center;
+}
+.about-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap; 
+  padding: 2rem;
+}
+
+.me {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding-left: 70px;
+  padding-top: 200px;
+
+
+}
+
+.vinyl-btn{
+    cursor: pointer;
+    background: transparent;
+    border: none; 
+    width: 20px;
+    height: 20px;
+    
+}
+
+
+.vinyl-btn img {
+    width: 20px;
+    height: 20px;
+}
+
+body{
+  
+    background-image:url("background.png" );
+    background-position: center;
+    background-size: cover;
+    background-color:  rgba(185, 178, 178, 0.582);
+    background-attachment: fixed;
+   
+}
+
+
+
+.links{
+
+
+    color: black;
+    background-color: rgba(117,117,117);
+    border-color: black;
+    border-radius: 10px;
+    padding: 2px 2px;
+    text-decoration: none;
+
+
+    display: inline-flex;
+    
+    align-items: center;
+
+    height: 15px;
+    width: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+
+
+}
+
+.bottom{
+    padding-left: 5px;
+}
+
+.linksbottom{
+
+
+    color: black;
+    background-color: rgb(117, 117, 117);
+    border-color: black;
+    border-radius: 10px;
+    padding: 2px 2px;
+    text-decoration: none;
+
+    gap: 10px;
+
+
+    display: inline-flex;
+    
+    align-items: center;
+    justify-content: center;
+
+    height: 15px;
+    width: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    
+   
+    align-items: center ;
+
+
+
+}
+
+.links:hover{
+    color: darkseagreen;
+    transform: scale(1.1);
+}
+
+
+.linksbottom:hover{
+    color: darkseagreen;
+    transform: scale(1.1);
+}
+
+.content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40px; 
+ 
+  padding-left: 10px;  
+  padding-right: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px
+}
+
+h1{
+   color: darkseagreen;
+}
+h3{
+  color: darkseagreen;
+}
+
+.projects{
+  background-color: rgba(128, 128, 128, 0.235);
+   padding: 10px 2rem 60px;
+   text-align: center;
+   max-width: 500px;
+   border-radius: 30px;
+    margin-top: 30px;
+    margin-left: 10px;
+
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.p1{
+ 
+  width:  500px;
+  height: 300px;
+  padding-left:50px ;
+  border-radius: 100px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.p2{
+  width:  500px;
+  height: auto;
+  padding-left: 50px;
+  border-radius: 100px;
+
+
+}
+
+.p3{
+  width:  500px;
+  height: 300px;
+  padding-left: 50px;
+  border-radius: 100px;
+
+
+}
+.p4{
+  width:  500px;
+  height: 350px;
+  padding-left: 50px;
+  border-radius: 100px;
+
+
+}
+
+
+
+.project-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #76727297;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-section {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px;
+  width: 1000px;
+}
+
+
+.end{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.personal{
+    background-image:url("2117703-3840x2160-desktop-4k-dark-background-image.jpg");
+    background-position: center;
+    background-size: cover;
+    background-color:  rgba(185, 178, 178, 0.582);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+
+}
+
+p, h1, h2 {
+  text-align: center;
+}
+
+
+
+.personal > * {
+    position: relative;
+    z-index: 2;
+}
+
+html, body { height: 100%; display: flex; flex-direction: column; min-height: 100vh; }
+
+/* Ensure main content grows so footer sits at the bottom when content is short */
+.about-wrapper, .content, .body1, .personal { flex: 1 0 auto; }
+
+/* As a fallback ensure footer pushes to the end */
+footer { margin-top: auto; }
+
+
+p{
+  color: aliceblue;
+}
+
+h2
+{
+  color: aliceblue;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.tools1{
+  width: 30px;
+  height: auto;
+  align-items: center;
+}
+
+.project-section1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.class-card {
+  flex: 1 1 300px;
+  max-width: 600px;
+  height: 200px;
+  background-color: rgba(117, 117, 117, 0.669);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+.classes{
+  padding-top: 4050px;
+}
+
+.aboutsec{
+  height: 90%;
+  width: 100%;
+  flex: 1;
+}
+
+
+
+.body1{
+
+  height: 100%;
+      margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.toolbox{
+  background-color: rgba(255, 255, 255, 0.08);
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+  border-radius: 30px;
+  text-align: center;
+  font-size: larger;
+}
+
+
+
+
+.about-flex {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.education, .about-box {
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 20px;
+  width: 300px;
+  color: white;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+  text-align: center;
+  
+}
+
+.kenobi{
+  color: darkseagreen;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.dets{
+  color: rgb(222, 213, 196);
+}
+
+.collab{
+  border-radius: 50%;
+
+}
