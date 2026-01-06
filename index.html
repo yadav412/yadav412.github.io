@@ -1,127 +1,91 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Yadav Singh</title>
-    <link rel="icon" type="image/x-icon" href= "favicon copy.png">
+    
+  <title>Home</title>
+  <link rel="icon" type="image/x-icon" href= "favicon copy.png">
+
 </head>
-
 <link rel="stylesheet" href ="personal website.css">
-
-<div class="about-wrapper">
-<div class="navbar" id="navbar">
 <body>
-    <h1 class= "name ">Yadav Singh</h1>
-
-  <botton class = "home" onclick="goto()"><img src="icons8-home-24.png" ></botton>
-  <button class="vinyl-btn" onclick="play()"><img src = "vinyl-record.png"></button>
-  <audio id="audio">
-    <source
-    src="Never Play - Jeremy Blake.mp3"
-    type="audio/mpeg">
-    <source
-    src="Never Play - Jeremy Blake.mp3" 
-    type="audio/mpeg">
-    Your browser does not support the audio element
-  </audio>
-  <script>
-    function goto() {
-      window.location.href = "index.html";
-    }
+  <header>
+    <div class="bottom">
     
-    function play(){
-      var x = document.getElementById("audio");
-     
-      if (x.paused){
-        x.play();}
-      else {
-        x.pause();
-      }
-      }
-  </script>
-
-</h4>
-<a class="links" href="personal blog.html"> education blog </a>
-<a class="links" href="projects.html"> projects </a>
-<a class="links" href="about.html"> about </a>
-
-
-</div>
-
-<div class="content">
-  
-  
-<div class ="about">
-    <h1 class="kenobi" >Why hello there!! Welcome to my webpage I am Yadav Singh.</h1>
-
-    <h2 class ="dets">I am a Software Systems and Psychology student at Simon Fraser University. If I am not slaying those pesky bugs or writing academic papers like any good mad scientist,
-    you can find me reading or watching a movie. I am always open to meeting new people, so feel free to contact me if you have questions or want talk neuroscience.</h3>
-    <h2 class ="dets">I look forward to connecting !!! </h3> 
-
-
-    <h3 class="kenobi"> links </h3>
-
-    <a class = "socials" href="https://www.linkedin.com/in/yadav-singh-39b687236/"><img src="linkedin.png" width="70" height="70"> <span style="left: 150px;"></span> <span style="right: 150px;"></span> </a>
-
-    <a class = "socials" href="https://github.com/yadav412?ocid=AIDcmmli8vlwie_SEM__k_CjwKCAjwgdayBhBQEiwAXhMxtkF3gqxGfbIFcDz61OTum5boMxdU_CunTV7fXoNVf0ADEYlX3SuHzRoCLF0QAvD_BwE_k_"><img src="github1.png" width="70" height="70"><span style="left: 150px;"></span><span style="right: 150px;"></span> </a>
-
-    <a class = "socials" href="https://leetcode.com/u/yadavsingh/"><img src ="leetcode.png" width="70" height="70"</br></a>
-
-    <a class = "socials" href="https://www.youtube.com/channel/UCzw3EgNxmEVYmIB7QKJcVNQ"><img src ="youtube.png" width="70" height="70"</br></a>
- <h3 class="kenobi"> Contact me </h3>
-
-    <script>
-      function mail(){
-        window.location.href ="mailto:yadavsingh3012@gmail.com? subject= hello"
-      }
-
-    </script>
-
-    <button class="email" onclick="mail()">yadavsingh3012@gmail.com</button>
+      
     
-
-</div>
-
-   <img class = "me" src="1744261360012.jpg" width ="90" length ="90">
-   
-  
+      <a class="linksbottom" href="project.html">projects</a>
+      <a><img class="favicon" src="favicon.png"></a> 
+      <a class="linksbottom" href="index.html">home</a>
+    </div>
     
-</body>
-</html>
+</header>
+<div class="about-wrapper">
 
-  <script>
-    function goto() {
-      window.location.href = "page.html";
-    }
+<div class="aboutsect">
 
-    function goToPage() {
-      const selectedPage = document.getElementById("webpages").value;
-      if (selectedPage) {
-        window.location.href = selectedPage;
-      }
-    }
+  <span class ="label"><h1>About me</h1></span>
 
-  </script>
-  
- 
-</div>
+  <div class="about-flex"> 
 
-</div>
-<footer>
-  <div class= "bottom">
-<a class="linksbottom" href="personal blog.html"> education blog </a>
-<a class="linksbottom" href="projects.html"> projects </a>
-<a class="linksbottom" href="about.html"> about </a>
+    <div class="education">
+      <h2 class="labels">Education</h2>
+      <h3>Fraser International College</h3>
+      <p>Completed my first year in computer science</p>
+      <p>major: Computer Science</p>
+      <p>2023-2024</p>
+
+      <h3>Simon Fraser University</h3>
+      <p>Currently completing my bachelors</p>
+      <p>major: Software Systems</p>
+      <p>Extended minor:Psychology</p>
+      <p>2025-present</p>
+    </div>
+
+    <div class="about-box"> 
+      <h2 class="labels">About</h2>
+      <p class="des">I am a Software Systems major and Psychology minor at Simon Fraser University. I am from South Africa where I used to spend my days practicing my photography craft. I was also formerly ranked 2nd in my age bracket in KZN for chess.</p>
+      <p class="des">I am somewhat of a movie buff as well, with some of my favourite franchises being Star Wars, the Bayverse Transformers(The digital affects have yet to be beaten), Cars (It started my love for racing ) and of course Indiana Jones.</p>
+      <p class="des">I am currently working on a few projects that involve web development, game development and machine learning. I am also interested in psychology and how it can be applied to software systems.</p>
+      <p class="des">I am passionate about technology especially how the human mind interacts with it. I am always looking for new challenges and opportunities to learn and grow.</p>
+    </div>
+    <div class="about-box"> 
+      <h2 class="labels">Experience</h2>
+      <p class="des"></p>
+    </div>
+
+  </div> 
+
+  <div class="toolbox">
+    <h2 class="labels">Toolbox</h2>
+    <p><img src="js.png" width="50px" height="50px"> <img src="html-5.png" width="50px" height="50px"><img src="css-3.png" width="50px" height="50px"><img src="docker.png" width="50px" height="50px"><img src="c-sharp (1).png" width="50px" height="50px"><img src="java.png" width="50px" height="50px"></p>
+    <p><img src="python.png" width="50px" height="50px"> <img src="c-.png" width="50px" height="50px"> <img src="sql-server.png" width="50px" height="50px"> <img src="unity.png" width="50px" height="50px"></p>
+    <p><img src="slack.png" width="50px" height="50px"> <img src="github.png" width="50px" height="50px"></p>
   </div>
-<p>
-<img class="favicon" src="favicon.png">
-</p>   
-</footer>
 
 
-</html>
+</div>
 
 
-<script>
+
+
+</div>
+
+
+<footer>
+    <div class="bottom">
+      
+      <a class="linksbottom" href="project.html">projects</a>
+      <a class="linksbottom" href="index.html">home</a>
+    </div>
+    <p>
+      <img class="favicon" src="favicon.png"> 
+    </p>
+  </footer>
+
+</body>
+
+
+  <script>
     let prevScrollPos = window.pageYOffset;
 
     window.onscroll = function () {
@@ -136,5 +100,11 @@
 
       prevScrollPos = currentScrollPos;
     };
-
   </script>
+
+
+
+
+</html>
+
+

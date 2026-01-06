@@ -20,6 +20,7 @@
 .favicon{
     height: 40px;
     width: 40px;
+    border-radius: 30px;
 }
 .name{
   font-family: 'Courier New', Courier, monospace;
@@ -65,6 +66,12 @@ footer{
   padding-top:  50px;
   text-align: center;
   
+}
+header{
+  align-items: center;
+  justify-content: space-between;
+  padding-top:  10px;
+  text-align: center;
 }
 .about-wrapper {
   display: flex;
@@ -305,7 +312,13 @@ p, h1, h2 {
     z-index: 2;
 }
 
-html, body { height: 100%; display: flex; flex-direction: column; }
+html, body { height: 100%; display: flex; flex-direction: column; min-height: 100vh; }
+
+/* Ensure main content grows so footer sits at the bottom when content is short */
+.about-wrapper, .content, .body1, .personal { flex: 1 0 auto; }
+
+/* As a fallback ensure footer pushes to the end */
+footer { margin-top: auto; }
 
 
 p{
@@ -375,18 +388,7 @@ h2
   font-size: larger;
 }
 
-.education{
-  background-color: rgba(255, 255, 255, 0.08);
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 10px;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
-  
 
-  border-radius: 30px;
-  text-align: center;
-  font-size: larger;
-}
 
 
 .about-flex {
@@ -403,6 +405,7 @@ h2
   width: 300px;
   color: white;
   box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+  text-align: center;
   
 }
 
