@@ -447,6 +447,8 @@ h2
   
 }
 
+
+
 .kenobi{
   color: darkseagreen;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -476,6 +478,10 @@ h2
   margin: 0.2rem 0.4rem 0.2rem 0;
   font-family: 'Times New Roman', Times, serif;
   color: #000000;
+}
+.resume{
+  align-items: center;
+  justify-content: center;
 }
 
 h1{
