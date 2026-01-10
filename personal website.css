@@ -204,11 +204,9 @@ body::before {
   padding-bottom: 40px
 }
 
-h1{
-   color: darkseagreen;
-}
+
 h3{
-  color: darkseagreen;
+  color: rgb(126, 126, 126);
 }
 
 .projects{
@@ -438,7 +436,7 @@ h2
   flex-wrap: wrap;
   margin-bottom: 30px;
 }
-.education, .about-box {
+.education, .about-box,.experience {
   background-color: rgba(0, 0, 0, 0.826);
   border-radius: 20px;
   padding: 20px;
@@ -456,13 +454,34 @@ h2
 
 .tag {
   display: inline-block;
-  border: solid 2px rgba(0,0,0,0.329);
-  background-color: #43ce335a;
+  border: solid 2px rgba(255, 255, 255, 0.612);
+  background-color: #ffffff5a;
   border-radius: 40px;
   padding: 0.5rem 1rem;
   margin: 0.2rem 0.4rem 0.2rem 0;
   font-family: 'Times New Roman', Times, serif;
   color: #000000;
+}
+
+.tag:hover{
+  transform: scale(1.1);
+}
+
+.techtag {
+  display: inline-block;
+  border: solid 2px rgb(255, 255, 255);
+  background-color: #ffffff5a;
+  border-radius: 40px;
+  padding: 0.5rem 1rem;
+  margin: 0.2rem 0.4rem 0.2rem 0;
+  font-family: 'Times New Roman', Times, serif;
+  color: #000000;
+}
+
+h1{
+  color: #6b6b6b;
+
+   
 }
 
 
@@ -484,4 +503,84 @@ h2
   max-width: 100%;
   max-height: 100%;
   border-radius: 20px;
+}
+
+
+.label{
+  color: #000000;
+}
+
+/* Experience Section Styling */
+/* Update your existing experience CSS with these changes */
+
+.exp-item {
+  margin-bottom: 18px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Changed to lighter border */
+  position: relative;
+}
+
+.exp-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.exp-date {
+  font-size: 14px;
+  color: darkseagreen; /* Changed to match your theme */
+  font-weight: 600;
+  margin-bottom: 2px;
+  font-family: 'Times New Roman', Times, serif; /* Changed to match your site */
+  letter-spacing: 0.3px;
+}
+
+.exp-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: aliceblue; /* Changed to match your h2 color */
+  margin: 3px 0 2px;
+  font-family: 'Times New Roman', Times, serif; /* Changed to match your site */
+}
+
+.exp-role {
+  font-size: 16px;
+  color: rgb(255, 255, 255); /* Changed to white to match .des class */
+  margin: 0;
+  line-height: 1.4;
+  padding-left: 5px;
+  font-family: 'Times New Roman', Times, serif; /* Added to match your site */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .exp-item {
+    margin-bottom: 15px;
+    padding-bottom: 12px;
+  }
+  
+  .exp-title {
+    font-size: 17px;
+  }
+  
+  .exp-role {
+    font-size: 15px;
+  }
+}
+
+/* Make ONLY the Experience box scrollable */
+.experience {
+  max-height: 520px;   /* adjust as needed */
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+
+.experience::-webkit-scrollbar {
+  width: 6px;
+}
+
+.experience::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
 }
