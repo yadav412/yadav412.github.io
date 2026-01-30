@@ -111,10 +111,10 @@ header{
 
 body{
   
-    background-image:url("assets/images/anime-background-black-and-white.gif" );
     background-position: center;
     background-size: cover;
-    background-color:  rgba(185, 178, 178, 0.582);
+    background: linear-gradient(to right, #383c4d, #1c343d);
+
     background-attachment: fixed;
    
    
@@ -465,6 +465,28 @@ h2
   color: #000000;
 }
 
+.tag2 {
+ 
+  border: solid 2px rgba(255, 255, 255, 0.612);
+  background-color: #ffffff5a;
+  border-radius: 40px;
+  padding: 0.5rem 1rem;
+  margin: 0.2rem 0.4rem 0.2rem 0;
+  font-family: 'Times New Roman', Times, serif;
+  color: #000000;
+  text-decoration: none;
+  height: 10px;
+  width: 90px;
+  
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tag2:hover{
+  transform: scale(1.1);
+}
+
 .tag:hover{
   transform: scale(1.1);
 }
@@ -497,6 +519,11 @@ h1{
 
 .collab{
   border-radius: 50%;
+
+}
+
+.collab1{
+  border-radius: 0%;
 
 }
 
@@ -534,7 +561,7 @@ h1{
 
 .exp-date {
   font-size: 14px;
-  color: darkseagreen; /* Changed to match your theme */
+  color: rgb(143, 161, 188); /* Changed to match your theme */
   font-weight: 600;
   margin-bottom: 2px;
   font-family: 'Times New Roman', Times, serif; /* Changed to match your site */
