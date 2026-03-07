@@ -2,6 +2,13 @@
 
 Welcome to my personal portfolio website! This is a showcase of my projects, education, and professional journey as a Software Systems and Psychology student at Simon Fraser University.
 
+## Tech Stack  
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=js,html,css" />
+  <br>
+  <img src="https://skillicons.dev/icons?i=github,figma" />
+</p>
+
 ## 🌟 About Me
  
 I'm Yadav Singh, a Software Systems major and Psychology minor at Simon Fraser University. Originally from South Africa, I'm passionate about technology and how the human mind interacts with it. When I'm not coding or writing academic papers, you can find me reading, watching movies, or exploring the intersection of psychology and software systems.
